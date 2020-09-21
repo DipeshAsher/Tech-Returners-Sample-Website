@@ -1,0 +1,73 @@
+  html { /* Style applied to all the html */
+    background-color: #00539F;
+  }
+  .navbar { /* navbar class being called and styled specifically */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #00539F;
+  }
+  .navbar li { /* the li element specifically in navbar class being styled  */
+    display: inline-block;
+    padding: 0 20px;
+  }
+  .navbar a { /* Give the text a colour of white in navbar */
+    /* text-decoration: none; */
+    color: white;
+  }
+  body {
+    font-family: 'Roboto', sans-serif; /* Code from Google Fonts */ 
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    /* padding: 0 20px 20px 20px; */
+    /* border: 5px solid black; */
+  }
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 75px;
+    padding: 0;
+    /* color: #00539F; */
+    /* text-shadow: 3px 3px 1px black; */
+  }
+h2 {
+    text-align: center;
+  }
+p, li { /* Able to style 2 elements at the same time */
+    font-size: 16px;    
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 320px;
+  }
+  .special { /* Controls the class called "special" in a list in online-solutions.html */
+    color: green;
+    font-weight: bold;
+  }
+  li em { /* Controls the em (emphasis) element in list in online-solutions.html */
+    color: rebeccapurple;
+    font-weight: bolder;
+  }
+  table {
+    table-layout: fixed;
+    width: 1010px;
+  }
+  td {
+    border: 5px solid #333;
+    padding: 20px 20px 20px 20px;
+  }
+  #small-homepage { /* Controls the ID created for small images on the homepage */
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+  }
+  iframe {
+    /* Both the display and margin makes the iframe display in the centre */
+    display: block;
+    margin: 0 auto;
+  }
