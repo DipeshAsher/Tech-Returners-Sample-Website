@@ -1,11 +1,8 @@
-  html { /* Style applied to all the html */
-    background-color: #00539F;
-  }
   .navbar { /* navbar class being called and styled specifically */
-    position: fixed;
+    position: static;
     top: 0;
     width: 100%;
-    background-color: #00539F;
+    /* background-color: #00539F; */
   }
   .navbar li { /* the li element specifically in navbar class being styled  */
     display: inline-block;
@@ -13,13 +10,16 @@
   }
   .navbar a { /* Give the text a colour of white in navbar */
     /* text-decoration: none; */
-    color: white;
+    color: blueviolet;
+  }
+  .hero {
+    background-image: url("../Interview-Website/images/ben-kolde-bs2Ba7t69mM-unsplash.jpg");
   }
   body {
     font-family: 'Roboto', sans-serif; /* Code from Google Fonts */ 
     width: 1024px;
     margin: 0 auto;
-    background-color: #FF9500;
+    /* background-color: #FF9500; */
     /* padding: 0 20px 20px 20px; */
     /* border: 5px solid black; */
   }
