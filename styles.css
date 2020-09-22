@@ -13,7 +13,7 @@
     color: blueviolet;
   }
   .hero {
-    background-image: url("../Interview-Website/images/ben-kolde-bs2Ba7t69mM-unsplash.jpg");
+    background-image: url("./images/ben-kolde-bs2Ba7t69mM-unsplash.jpg");
   }
   body {
     font-family: 'Roboto', sans-serif; /* Code from Google Fonts */ 
